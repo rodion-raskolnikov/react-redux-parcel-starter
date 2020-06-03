@@ -1,0 +1,42 @@
+{
+  "name": "react-redux-parcel-starter",
+  "version": "1.0.0",
+  "description": "ReactJs starter project with redux/thunk and dev proxy express setup, assembled with parcel-bundler",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/server/server-dev",
+    "build": "parcel build ./src/html/index.html"
+  },
+  "repository": "https://github.com/rodion-raskolnikov/react-redux-parcel-starter",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "clsx": "^1.1.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/preset-react": "^7.0.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4"
+  }
+}
