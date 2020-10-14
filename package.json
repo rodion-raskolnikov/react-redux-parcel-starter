@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node ./src/server/server-dev",
-    "build": "parcel build ./src/html/index.html"
+    "build": "PARCEL_BUNDLE_ANALYZER=1 parcel build ./src/html/index.html"
   },
   "repository": "https://github.com/rodion-raskolnikov/react-redux-parcel-starter",
   "keywords": [],
@@ -15,7 +15,7 @@
     "classnames": "^2.2.6",
     "clsx": "^1.1.0",
     "lodash": "^4.17.19",
-    "moment": "^2.24.0",
+    "moment": "^2.29.1",
     "prop-types": "^15.6.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
@@ -23,13 +23,13 @@
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "whatwg-fetch": "^3.0.0"
+    "whatwg-fetch": "^3.4.1"
   },
   "engines": {
     "node": ">=12"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.1",
+    "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-proposal-decorators": "^7.10.5",
     "@babel/preset-react": "^7.10.4",
