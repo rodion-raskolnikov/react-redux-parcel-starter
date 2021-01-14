@@ -4,5 +4,6 @@ dist
 
 .idea
 .cache
+.parcel-cache
 
 jsconfig.json
