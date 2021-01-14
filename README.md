@@ -19,7 +19,7 @@ To run in dev mode:
 npm run dev
 ```
 
-Then open localhost:3000
+Then open localhost:1234
 
 
 To build a production dist
