@@ -5,5 +5,6 @@ dist
 .idea
 .cache
 .parcel-cache
+parcel-bundle-reports
 
 jsconfig.json
