@@ -1,6 +1,6 @@
 {
   "name": "react-redux-parcel-starter",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "ReactJs starter project with redux/thunk and dev proxy express setup, assembled with parcel-bundler",
   "scripts": {
     "dev": "parcel serve ./src/html/index.html",
